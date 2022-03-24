@@ -6,4 +6,4 @@ function edadPerro (a) {
 a = prompt ('¿cuál es la edad de tu perro? ')
 console.log (edadPerro(a))
 
-function 
+
