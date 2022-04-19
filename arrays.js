@@ -1,7 +1,7 @@
 const prompt = require("prompt-sync")({ sigint: true });
 
 //Arrays
-/*let grupo = [ 'Angelica','Natalia','Luisa']
+let grupo = [ 'Angelica','Natalia','Luisa']
 let edades = [ 35, 30, 32]
 let valoresDeVerdad = [true, false, true]
 let variados = ['Angelica',35, true, false, edades]
@@ -12,10 +12,10 @@ let variados = ['Angelica',35, true, false, edades]
 //console.log(edades)
 
 // ¿Arrays dentro de Arrays?
-console.log(variados[4][1])
-console.log(variados.length)*/
+//console.log(variados[4][1])
+//console.log(variados.length)
 
-/*let nombresDeCafe = ['amarti','amor perfecto', 'arangos', 'don honorio','azahar', 'cóndor']
+let nombresDeCafe = ['amarti','amor perfecto', 'arangos', 'don honorio','azahar', 'cóndor']
 
 nombresDeCafe.push('okafe','BCC')
 nombresDeCafe.push('quindio')
@@ -26,11 +26,24 @@ nombresDeCafe.push('arangos')
  //nombresDeCafe.unshift('amarti')
 
 let posicionArangos = nombresDeCafe.lastIndexOf('arangos')
-console.log(nombresDeCafe)
-console.log(nombresDeCafe.length)
-console.log(posicionArangos)*/
+//console.log(nombresDeCafe)
+//console.log(nombresDeCafe.length)
+//console.log(posicionArangos)
 
-/*let estudiantes = [
+let cumpleañosLeti = ['Juanita','Gabriel','Juan Jose','Mia']
+//console.log(cumpleañosLeti);
+//console.log(cumpleañosLeti.length);
+
+cumpleañosLeti.forEach(item=>console.log('forEach', item) )
+
+
+
+
+
+
+
+
+let estudiantes = [
     {
     nombre: 'Alvaro',
     promedio : 9,
@@ -48,22 +61,22 @@ console.log(posicionArangos)*/
     },
 ]
 
-estudiantes.push(['nombre:Juan','promedio:5','curso:IOS'],['nombre: Miguel','promedio:2', 'curso:Android']);
-console.log(estudiantes)*/
+//estudiantes.push(['nombre:Juan','promedio:5','curso:IOS'],['nombre: Miguel','promedio:2', 'curso:Android']);
+//console.log(estudiantes)
 
-/*let sentimiento = 'estoy muy feliz'
-console.log(sentimiento.length)
-console.log(sentimiento.indexOf('muy'))
+let sentimiento = 'estoy muy feliz'
+//console.log(sentimiento.length)
+//console.log(sentimiento.indexOf('muy'))
 
 let otroSentimiento = 'me gusta JS'
-console.log(otroSentimiento.slice(3,8));*/
+//console.log(otroSentimiento.slice(3,8));*/
 
-/*function reemplazoFastFast (a,b,c){
+function reemplazoFastFast (a,b,c){
     return a.replace (b,c)
 
 }  
-console.log(reemplazoFastFast ('Este texto es mala onda','mala','buena'))
-console.log('Hola mundo'.indexOf('Hola'))
+//console.log(reemplazoFastFast ('Este texto es mala onda','mala','buena'))
+//console.log('Hola mundo'.indexOf('Hola'))
 
 
 
@@ -72,10 +85,10 @@ function menciona(a,b){
     return a.includes(b)
 }
 
-console.log("resultado indexOf: ")
-console.log(menciona("Hola mundo","Hola"))*/
+//console.log("resultado indexOf: ")
+//console.log(menciona("Hola mundo","Hola"))*/
 
-/*const elements = [ 'fire', 'air', 'water', 'earth', 'love'] 
+const elements = [ 'fire', 'air', 'water', 'earth', 'love'] 
 
 let rtaFinal = ''
 const separator = '--'
@@ -85,13 +98,13 @@ for (let index = 0; index < elements.length; index++) {
 }
 const rta = elements.join('--')
 
-console.log('for',rtaFinal)
-console.log('join',rta);
+//console.log('for',rtaFinal)
+//console.log('join',rta);
 
 const title = 'Curso de Manipulaciòn de Arrays'
 
 const urlFinal = title.split(' ').join('-').toLowerCase()
-console.log(urlFinal)*/
+//console.log(urlFinal)*/
 
 //ejercicio:
 /*const notas = 0
