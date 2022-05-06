@@ -13,7 +13,7 @@ console.log('termina punto 1')
 //2) Imprimir los números entre el 5 y el 20, saltando de tres en tres.
 
 for ( let i = 5 ; i <= 20 ; i = i + 3){
- console.log (i)
+console.log (i)
 }
 console.log('termina punto 2');
 
@@ -42,14 +42,6 @@ console.log(otroContador)
 console.log('termina punto 3');
 
 
-//4) Dado un número entero positivo, mostrar su factorial. El factorial de
-//un número se obtiene multiplicando todos los números enteros
-//positivos que hay entre el 1 y ese número.
-
-for (     ;    ;    ) {
-
-
-}
 
 
 
@@ -57,6 +49,3 @@ for (     ;    ;    ) {
 
 
 
-
-//Crear una función que muestre todos los números de la secuencia de
-//fibonacci hasta el valor ingresado por parámetro.

@@ -62,5 +62,5 @@ console.log ('puedeSubir') {
     else if ( altura >= 1.20 && altura < 1.40){
     vieneAcompaniado = true 
     }
-    return booleano
+return booleano
 }

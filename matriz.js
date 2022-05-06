@@ -198,4 +198,3 @@ for (let i = 0; i < numMayorReto.length; i++) {
 //console.log(numMayor);
 
 
-
